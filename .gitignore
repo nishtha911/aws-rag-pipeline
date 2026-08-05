@@ -26,3 +26,5 @@ credentials.json
 *.pem
 *.log
 logs/
+node_modules/
+cd 
