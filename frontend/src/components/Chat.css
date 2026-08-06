@@ -1,0 +1,78 @@
+.chat-container {
+  padding: 20px;
+}
+
+.chat-container form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.chat-container input {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.chat-container button {
+  padding: 12px 30px;
+  background: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.answer-container {
+  margin-top: 20px;
+}
+
+.answer {
+  background: #f0f7ff;
+  border-radius: 5px;
+  padding: 20px;
+  border-left: 4px solid #0066cc;
+  margin-bottom: 20px;
+}
+
+.answer p {
+  white-space: pre-wrap;
+  line-height: 1.6;
+}
+
+.sources {
+  background: #f8f9fa;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.source-item {
+  background: white;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #eee;
+}
+
+.source-item .filename {
+  font-weight: 500;
+  color: #232f3e;
+}
+
+.source-item .chunk {
+  margin-left: 10px;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.source-item .preview {
+  margin-top: 5px;
+  color: #555;
+  font-size: 0.9rem;
+  background: #f8f9fa;
+  padding: 8px;
+  border-radius: 3px;
+}
